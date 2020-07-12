@@ -1,0 +1,70 @@
+@import'reset.css';
+/*头部信息*/
+#headmessage li{
+	float:left;
+	line-height: 20px;
+	padding:0 8px;
+	background-color: #ffff11;
+}
+/*头部搜索*/
+#headsearch{
+	background-color: #f40;
+	height:100px;
+	padding:24px 0 10px;
+	}
+#headsearch .code{
+	display:block;
+	width:330px;
+	margin:0 auto;
+	height:50px;}
+/*导航*/
+#nav h2{
+width:190spx;
+height: 30px;
+line-height: 30px;
+font-size:16px;
+color:#fff;
+text-align: center;
+background-color:#f50;
+}
+#nav ul{
+	width:1000px;
+}
+#nav ul li{
+	float:left;
+	line-height: 30px;
+}
+/*首屏内容*/
+/*侧边导航*/
+#firstscreen .firstleft{
+	width:890px;
+}
+.firstleft .sidenav{
+	width:190px;
+	height:522px;
+	background:#ff0;
+	border:1px solid #ff5000;
+	box-sizing:border-box;
+	border-top:none;
+}
+.firstleft .sidenav li{
+	height:32px;
+	line-height:32px;
+    padding-left:25px;
+}
+/*图片1容器*/
+.img1box fr{
+	width:20px;
+    height:20px;
+    background:#eee;
+}
+/*图片2容器*/
+.img2box fr{
+	width:90px;
+	height:30px;
+	background:#ccf;
+}
+.firstleft .pic{
+	width:520px;
+	position:relative;
+}
